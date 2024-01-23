@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    @apply bg-dark;
+}
+
+.active {
+    @apply bg-red-950 shadow-lg border-red-500 shadow-lg shadow-red-400;
+}

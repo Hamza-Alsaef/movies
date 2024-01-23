@@ -1,0 +1,32 @@
+
+.movie {
+    min-height: 16rem;
+}
+.movie:hover>h1,.movie:hover p{
+
+    transform: translateY(0) ;
+
+}
+.movie:hover .icon {
+    display: block;
+}
+
+.movie:hover img {
+    transform:rotate(2rem)
+}
+
+.icon {
+    
+    /* top: 50%; */
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(227, 62, 62);
+    opacity: 8;
+    padding: .5rem;
+    font-size: 3rem;
+    border-radius: 50%;
+    transition-duration: .3s;
+    display: none;
+    cursor: pointer;
+    
+}

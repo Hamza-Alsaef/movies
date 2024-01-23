@@ -1,0 +1,13 @@
+
+.fullfielm {
+    min-height: 30rem;
+    min-width: 70%;
+    position:relative;
+    z-index: 1000;
+    background-color: black;
+    opacity: .4;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
